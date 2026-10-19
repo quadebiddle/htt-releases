@@ -170,6 +170,21 @@
               "sha256": "9f1a3b4ec14459647725eecbd818251fe10f01abfba152e2d6fa69c2ce2fa5ff"
             }
           }
+        },
+        {
+          "version": "0.1.1",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "Add a job folder: take one existing job folder into the Heart by its job number, such as one made before HTT. Nothing in it is moved or renamed; it gets the job's marker so Ingest sees it's online."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.1.1/HTT-Heart-0.1.1-windows-setup.exe",
+              "size": 24912788,
+              "sha256": "ea15e06f93c4a53f3b8ebfd0ef6b45a67a7e7e18c81b2a676b51eace761ae61b"
+            }
+          }
         }
       ]
     }
