@@ -296,6 +296,28 @@
               "sha256": "4d2c36632b9a7bc56a88d82b738cd0f7775def48da575df7ce0117d423acdfe7"
             }
           }
+        },
+        {
+          "version": "0.3.0",
+          "channel": "beta",
+          "date": "2026-10-20",
+          "notes": [
+            "Plates can go out in ACEScg: HTT Publish converts them through the plate's own timeline colour management, so the project's settings are never touched. ACEScg is the default; Camera space keeps them as shot.",
+            "With the grade: plates keep the clip's grade and its colour group's grade, never the timeline's nodes.",
+            "Plates go in the shot's plates folder, plates/P01/v003, named ROB_0010_P01_v003, with the review movie and thumbnail in previews/.",
+            "Publish only what you want: shots already in the Heart start unticked (All, New only and None to change that), and any shot can be named on the page, such as LAU_0015.",
+            "The camera, lens, ISO, shutter, white balance and colour space come from the clip's metadata and show on the shot page, in Frames and Camera sections laid out like the design.",
+            "Add version from files: a new version of a plate from an image sequence, such as P01 after paint, copied in and checked. The originals stay as they are.",
+            "Tasks can be removed (their notes stay, under General), and are given to people from the crew.",
+            "A Crew page for each job: people, roles and access, their open tasks, and adding people, new or from the studio list. You're on every job as its owner."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.3.0/HTT-Heart-0.3.0-windows-setup.exe",
+              "size": 26225045,
+              "sha256": "ee499626e2779bfe6c53b4e1031c9d2e508aecbbffa868794b10a60fc900e8e5"
+            }
+          }
         }
       ]
     }
