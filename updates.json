@@ -42,6 +42,25 @@
               "sha256": "885a639b122c39d8a3f4830aaf570a0b788026f8b0bfddcdd1b79906587388f4"
             }
           }
+        },
+        {
+          "version": "0.1.2",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "Eject cards and drives from the list, or straight from a card's result after copying.",
+            "Cards are named by their camera in the short form crews use (BMPCC 6K Pro), with the card's own name and drive below it (B001 I:\\, or Local Disk J:\\).",
+            "A card that's in the job twice now goes back to the copy filed under the card type you pick, then the first copy made, rather than the latest one.",
+            "The fonts are inside the app, so it looks the same with no internet.",
+            "The two steps are now Destination and Source."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/ingest-v0.1.2/HTT-Ingest-0.1.2-windows-setup.exe",
+              "size": 15718994,
+              "sha256": "4eb844f2e10ab95a422f3b656a144f6df770b2afcfdd08e71448bc7bccabfab9"
+            }
+          }
         }
       ]
     }
