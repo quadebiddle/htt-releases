@@ -318,6 +318,26 @@
               "sha256": "ee499626e2779bfe6c53b4e1031c9d2e508aecbbffa868794b10a60fc900e8e5"
             }
           }
+        },
+        {
+          "version": "0.4.0",
+          "channel": "beta",
+          "date": "2026-10-20",
+          "notes": [
+            "Previews are always clean Rec.709: the Heart makes each plate's review movie and thumbnail from the plate, through the ACES 2.0 SDR Rec.709 view, so nothing in the Heart is log or raw ACEScg, and your timeline's look (a film emulation) isn't in them. Turn Clean previews off to have Resolve render them from the edit instead.",
+            "Plates on projects that aren't colour managed are made your project's way, with your colour group and clip nodes as in the edit, and the Heart converts each frame to ACEScg: from DaVinci Wide Gamut/Intermediate when the grade has a colour space transform, else from the camera's log. The timeline's nodes are never on a plate.",
+            "Sony clips are known by their sidecar file: S-Log3/S-Gamut3.Cine goes to ACEScg properly, and the camera and lens show on the shot page.",
+            "The camera details on the shot page can be edited: add a lens the metadata didn't have, or change anything.",
+            "Put the picked shots in another sequence from the publish window: clips already named like shots kept their own sequence before.",
+            "Make the previews again from any version's row."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.4.0/HTT-Heart-0.4.0-windows-setup.exe",
+              "size": 35650314,
+              "sha256": "44ea7e89c37d0742168ecee5191b72e80bb010b35f1870c5eb3eec713e61f9ce"
+            }
+          }
         }
       ]
     }
