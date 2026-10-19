@@ -23,6 +23,25 @@
               "sha256": "94b05888184377477cec7218b9b8bd1a95fa160bb5b6c075289dd6590e22dd23"
             }
           }
+        },
+        {
+          "version": "0.1.1",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "Card readers and drives plugged in by USB, USB-C, SD, CFast or Thunderbolt now always show under Cards and removable drives, even when the reader calls itself a fixed disk.",
+            "Each card shows the camera that made it, such as Sony A7S III, when the card says.",
+            "A card that was copied and then shot on without formatting only has its new clips copied, into the roll it went to first, and checked. Nothing copied before is touched.",
+            "Every section folds, with Collapse all and Expand all.",
+            "New scroll bars, and the Roll folder button is now Open folder."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/ingest-v0.1.1/HTT-Ingest-0.1.1-windows-setup.exe",
+              "size": 15566994,
+              "sha256": "885a639b122c39d8a3f4830aaf570a0b788026f8b0bfddcdd1b79906587388f4"
+            }
+          }
         }
       ]
     }
