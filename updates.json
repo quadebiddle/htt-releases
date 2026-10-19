@@ -130,6 +130,22 @@
               "sha256": "3947f1b0d2764c5deaeca125ff300abba92a1e63a367068926c79f6069963390"
             }
           }
+        },
+        {
+          "version": "0.1.7",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "Insta360 cameras are named, such as Insta360 ONE X2, from their photos or the end of their videos.",
+            "R\u00d8DE Wireless cards read R\u00d8DE however the recorder spells it, so their folders always match."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/ingest-v0.1.7/HTT-Ingest-0.1.7-windows-setup.exe",
+              "size": 15726708,
+              "sha256": "94e611781b4cdd6fc5b58b020ee2460ed744b6388187033e05649b463f42ebec"
+            }
+          }
         }
       ]
     }
