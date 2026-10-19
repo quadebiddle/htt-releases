@@ -161,6 +161,21 @@
               "sha256": "ac4304d07d451e29b7fdc20e6770b2c8b42c9a034b6803ff6120759d0889686b"
             }
           }
+        },
+        {
+          "version": "0.1.9",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "A smaller download (about 16 MB again): the build had picked up image and database tools Ingest doesn't use."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/ingest-v0.1.9/HTT-Ingest-0.1.9-windows-setup.exe",
+              "size": 15739732,
+              "sha256": "d2db9afc2087f41bec9d6697101ede391a9b69bd8e5151fa9374f41374dd99d9"
+            }
+          }
         }
       ]
     },
