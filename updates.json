@@ -230,6 +230,21 @@
               "sha256": "937bc6753ead838cdab5845c43d9e1c4a37b7b982e6e6502ff495dd203132c33"
             }
           }
+        },
+        {
+          "version": "0.1.3",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "New versions show up without restarting the Heart: it looks every hour while it runs, and again whenever you open it from its shortcut. A page left open shows the update bar once one is found."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.1.3/HTT-Heart-0.1.3-windows-setup.exe",
+              "size": 24933848,
+              "sha256": "4329f803f3ab190b3b429bf1649d7a00df8993d134f159b17d25459da06c5358"
+            }
+          }
         }
       ]
     }
