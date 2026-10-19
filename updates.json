@@ -278,6 +278,24 @@
               "sha256": "97ed6e0de17cd0f644db47911c1e7b2b2bc207eda82e62a68bc1855d24bf9cde"
             }
           }
+        },
+        {
+          "version": "0.2.2",
+          "channel": "beta",
+          "date": "2026-10-20",
+          "notes": [
+            "Fixed: HTT Publish stopped inside Resolve just after opening the publish window, so Read the timeline again did nothing and Publish waited forever. Resolve's console works differently from a normal one, and HTT Publish now copes with it.",
+            "If HTT Publish stops in Resolve, the publish window says why straight away. A publish Resolve doesn't pick up within a minute is called off, with nothing left behind.",
+            "Read the timeline again shows it's reading until the new read arrives.",
+            "HTT Publish keeps a log of each run, in HTT's settings folder under resolve."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.2.2/HTT-Heart-0.2.2-windows-setup.exe",
+              "size": 26188770,
+              "sha256": "4d2c36632b9a7bc56a88d82b738cd0f7775def48da575df7ce0117d423acdfe7"
+            }
+          }
         }
       ]
     }
