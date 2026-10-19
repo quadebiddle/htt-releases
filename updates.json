@@ -245,6 +245,24 @@
               "sha256": "4329f803f3ab190b3b429bf1649d7a00df8993d134f159b17d25459da06c5358"
             }
           }
+        },
+        {
+          "version": "0.2.0",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "Publish shots from DaVinci Resolve. Add HTT Publish to Resolve from Settings, then in Resolve: Workspace > Scripts > HTT Publish. Colour the VFX clips (Pink to start); clips of that colour become shots, named from the clip if it's already named like a shot, otherwise numbered in tens in the sequence you type.",
+            "Resolve renders each shot's plates as EXR at the clip's full resolution, ungraded, with handles, numbered from 1001. Clips stacked under the shot become plates P02, P03. Each shot also gets a review movie and a thumbnail of the edit.",
+            "Each version goes into the shot's publish folder (v001, v002 ...) only once it's rendered and checked, so a failed render leaves nothing behind. Speed changes, reframes and short handles in the edit are noted on it.",
+            "Shot pages list published versions with Play and Folder, and shot lists show thumbnails."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.2.0/HTT-Heart-0.2.0-windows-setup.exe",
+              "size": 24996362,
+              "sha256": "5c1a62bb6c6d713ed0b98239616607cb23b086d631d6f1d49c0a6c57589e0a7d"
+            }
+          }
         }
       ]
     }
