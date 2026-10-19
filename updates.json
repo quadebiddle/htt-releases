@@ -200,6 +200,21 @@
               "sha256": "ea15e06f93c4a53f3b8ebfd0ef6b45a67a7e7e18c81b2a676b51eace761ae61b"
             }
           }
+        },
+        {
+          "version": "0.1.2",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "A Structure page: the job folder layout as a tree, each folder folding open or closed, with Collapse all. Pick a folder to change its name (with tokens), when it's made (with every job, or when an app first needs it), what goes there and what it's used for, with an example path. Add, move and remove folders, edit the named pieces, and save it all as the studio default for new jobs."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.1.2/HTT-Heart-0.1.2-windows-setup.exe",
+              "size": 24933185,
+              "sha256": "937bc6753ead838cdab5845c43d9e1c4a37b7b982e6e6502ff495dd203132c33"
+            }
+          }
         }
       ]
     }
