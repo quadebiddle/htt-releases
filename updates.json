@@ -113,6 +113,23 @@
               "sha256": "9f54839de987b80fbc220e1c0ca0b070d0797e8485be0eebde3ac382f868ee38"
             }
           }
+        },
+        {
+          "version": "0.1.6",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "A card copied before anything was shot on it, then shot on and copied again, now goes into the same roll. Ingest recognises the card by its serial number, which only changes when it's formatted.",
+            "Copying a card with no clips or photos on it gets a note first.",
+            "System folders left off a copy are no longer shown on the card; they're still listed in the report."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/ingest-v0.1.6/HTT-Ingest-0.1.6-windows-setup.exe",
+              "size": 15727404,
+              "sha256": "3947f1b0d2764c5deaeca125ff300abba92a1e63a367068926c79f6069963390"
+            }
+          }
         }
       ]
     }
