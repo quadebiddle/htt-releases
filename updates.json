@@ -146,6 +146,21 @@
               "sha256": "94e611781b4cdd6fc5b58b020ee2460ed744b6388187033e05649b463f42ebec"
             }
           }
+        },
+        {
+          "version": "0.1.8",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "The Folder template tab now keeps the job folder structure set up in the Heart when it saves its own templates."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/ingest-v0.1.8/HTT-Ingest-0.1.8-windows-setup.exe",
+              "size": 21744717,
+              "sha256": "ac4304d07d451e29b7fdc20e6770b2c8b42c9a034b6803ff6120759d0889686b"
+            }
+          }
         }
       ]
     },
