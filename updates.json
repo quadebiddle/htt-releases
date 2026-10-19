@@ -61,6 +61,24 @@
               "sha256": "4eb844f2e10ab95a422f3b656a144f6df770b2afcfdd08e71448bc7bccabfab9"
             }
           }
+        },
+        {
+          "version": "0.1.3",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "Eject works: a card in a reader slot is ejected and the reader stays connected, and a reader or drive that Windows treats as a fixed disk is safely removed.",
+            "A new job made by Ingest only has a media folder (and its small _htt folder). The rest of a job's folders come from the Heart, so rushes can live on a drive of their own.",
+            "The copy panel shows where each copy goes: the card's drive, an arrow, then the destination.",
+            "New versions show up straight after they're released."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/ingest-v0.1.3/HTT-Ingest-0.1.3-windows-setup.exe",
+              "size": 15722337,
+              "sha256": "2cd8d2faa68e691ecf2127225f8a5e76d9fa514e8cb3c88b670620975edf38af"
+            }
+          }
         }
       ]
     }
