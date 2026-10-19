@@ -148,6 +148,30 @@
           }
         }
       ]
+    },
+    "heart": {
+      "name": "HTT - Heart",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "The first Heart: it runs on this computer and opens in the browser, with a desktop shortcut and updates from Settings.",
+            "Jobs: make a new job, picking where its project folder goes and whether its rushes go on their own drive or inside the project folder. Jobs Ingest made are listed to add, with nothing moved.",
+            "Shots: add shots by hand or from a CSV shot list, in sequences in film order, with frame ranges from 1001.",
+            "Tasks with statuses, who's on them and due dates, and notes as to-dos you tick off.",
+            "A job that's been moved is relinked from its Job settings, and the Heart's own data folder can move to another drive."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.1.0/HTT-Heart-0.1.0-windows-setup.exe",
+              "size": 24912426,
+              "sha256": "9f1a3b4ec14459647725eecbd818251fe10f01abfba152e2d6fa69c2ce2fa5ff"
+            }
+          }
+        }
+      ]
     }
   }
 }
