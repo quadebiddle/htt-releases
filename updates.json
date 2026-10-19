@@ -79,6 +79,23 @@
               "sha256": "2cd8d2faa68e691ecf2127225f8a5e76d9fa514e8cb3c88b670620975edf38af"
             }
           }
+        },
+        {
+          "version": "0.1.4",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "Roll folders carry the camera's name, such as B001_BMPCC6KPro, A001_SonyA7Siii or S001_ZoomF3.",
+            "A card reformatted without changing its reel name no longer stops the copy: if B001 is already used that day, it becomes B001-2. Only the folder; the files keep their own names.",
+            "R\u00d8DE Wireless PRO cards are recognised by name, and Sony cameras read A7S iii."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/ingest-v0.1.4/HTT-Ingest-0.1.4-windows-setup.exe",
+              "size": 15717133,
+              "sha256": "9563f3687c98855ba24c1ab96ca8000b28f4961df5705a5da84828ed7cc74cce"
+            }
+          }
         }
       ]
     }
