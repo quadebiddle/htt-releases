@@ -96,6 +96,23 @@
               "sha256": "9563f3687c98855ba24c1ab96ca8000b28f4961df5705a5da84828ed7cc74cce"
             }
           }
+        },
+        {
+          "version": "0.1.5",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "A Wireless mics card type: R\u00d8DE Wireless, DJI Mic and Hollyland cards get it without asking, and count W001, W002 ... in the Sound folder, so the recorder keeps its own S001, S002 ... whatever order the cards go in.",
+            "Ingest remembers the card type you used for each named card (such as F3_SD) and suggests it next time, even when the card doesn't say what made it.",
+            "Each card says why its card type was picked, and card types can be set to be picked for a device in the Folder template tab."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/ingest-v0.1.5/HTT-Ingest-0.1.5-windows-setup.exe",
+              "size": 15725254,
+              "sha256": "9f54839de987b80fbc220e1c0ca0b070d0797e8485be0eebde3ac382f868ee38"
+            }
+          }
         }
       ]
     }
