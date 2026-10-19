@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "apps": {
+    "ingest": {
+      "name": "HTT - Ingest",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "channel": "beta",
+          "date": "2026-10-19",
+          "notes": [
+            "The first installed version: a desktop shortcut, and updates from inside the app.",
+            "Copies camera, sound, stills, drone and 360 cards into a job, onto several drives at once, and checks every copy before a card is marked safe to format.",
+            "Several cards at once, one per reader, all copying at the same time.",
+            "Jobs come from the drives, or a new one can be made by hand. Folders follow one template, edited in the Folder template tab.",
+            "An ASC MHL, a CSV and an HTML report for every card.",
+            "A card copied before goes back to its own roll, and a stopped copy can be finished later."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/ingest-v0.1.0/HTT-Ingest-0.1.0-windows-setup.exe",
+              "size": 15520412,
+              "sha256": "94b05888184377477cec7218b9b8bd1a95fa160bb5b6c075289dd6590e22dd23"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
