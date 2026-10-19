@@ -263,6 +263,21 @@
               "sha256": "5c1a62bb6c6d713ed0b98239616607cb23b086d631d6f1d49c0a6c57589e0a7d"
             }
           }
+        },
+        {
+          "version": "0.2.1",
+          "channel": "beta",
+          "date": "2026-10-20",
+          "notes": [
+            "HTT Publish opens its own publish window instead of a browser tab. It stays on top of Resolve, so you can click around in Resolve behind it; untick Keep on top to let it go behind. Done closes it, and published shots open in the Heart in your browser."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.2.1/HTT-Heart-0.2.1-windows-setup.exe",
+              "size": 26191176,
+              "sha256": "97ed6e0de17cd0f644db47911c1e7b2b2bc207eda82e62a68bc1855d24bf9cde"
+            }
+          }
         }
       ]
     }
