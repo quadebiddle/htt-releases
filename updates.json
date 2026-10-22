@@ -475,6 +475,24 @@
               "sha256": "25c6b43fb4ee3f11546e94e01e077990f14167f60cda9617f4274e7ffdacbe63"
             }
           }
+        },
+        {
+          "version": "0.8.0",
+          "channel": "beta",
+          "date": "2026-10-22",
+          "notes": [
+            "Camera colour groups now convert with a DCTL instead of a LUT: the same maths as a Color Space Transform from the camera's log into DaVinci Wide Gamut / Intermediate (tone and gamut mapping none), read from OpenColorIO's config. It doesn't clip above 1.0 the way the LUT could, and a Sony plate through it matched a straight conversion to within 0.002%.",
+            "When HTT brings a newer OpenColorIO, the DCTLs are made again from it, so its corrections reach every camera. The Cameras list on the Structure page shows which are up to date.",
+            "BRAW, Sony (S-Gamut3, S-Gamut3.Cine and Venice), ARRI LogC3 and LogC4, RED, Canon Log 2 and 3, Panasonic V-Log, DJI D-Log and Apple Log are all ready.",
+            "Take from Resolve and Load a .drx are gone: Resolve's scripting can't put a still on a colour group."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.8.0/HTT-Heart-0.8.0-windows-setup.exe",
+              "size": 35702338,
+              "sha256": "46938c2a7d99b429cce60bfa6b4cc28f197007754916a7990a0784f652aa0815"
+            }
+          }
         }
       ]
     }
