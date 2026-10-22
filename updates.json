@@ -391,6 +391,22 @@
               "sha256": "42a52e65802c36df08de69937868656595c4e2dcf5324554f13adf1d00a908b0"
             }
           }
+        },
+        {
+          "version": "0.5.1",
+          "channel": "beta",
+          "date": "2026-10-22",
+          "notes": [
+            "Group clips by camera, in the publish window: clips on the timeline with no colour group go into their camera's group (BRAW-DWG, SLog3-DWG and so on), known by their file type or Sony sidecar. A group the project hasn't got is made with HTT's LUT into DaVinci Wide Gamut; one it has is used as it is. Clips already in a group stay where they are.",
+            "Plates from clips in HTT's camera groups are converted to ACEScg from DaVinci Wide Gamut, the same as a group with a colour space transform."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.5.1/HTT-Heart-0.5.1-windows-setup.exe",
+              "size": 35677118,
+              "sha256": "f7ed473e4ce9707a9786e76af484a6fecf67c35f12708fa6711b25f1a759522e"
+            }
+          }
         }
       ]
     }
