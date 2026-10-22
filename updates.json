@@ -356,6 +356,22 @@
               "sha256": "dbf6294d9c35a9ae50b6be91fedbe719e019ae152841d550275832df5e842749"
             }
           }
+        },
+        {
+          "version": "0.4.2",
+          "channel": "beta",
+          "date": "2026-10-22",
+          "notes": [
+            "The publish window shows the previews being made after a publish: a bar for the whole batch, and each plate's frames as they're done, ready, or what went wrong with a Try again button. They carry on in the Heart if you close the window.",
+            "Every publish starts with \"With the grade\" ticked. Untick it for a publish without; it's no longer remembered, so the next publish has the grade again. A clip with no grade goes out from the camera's log as before."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.4.2/HTT-Heart-0.4.2-windows-setup.exe",
+              "size": 35651808,
+              "sha256": "811ffb51c60523ca928095aff8a4bd75eae1b3aa4ffa0c99f89ef67ca415b3dc"
+            }
+          }
         }
       ]
     }
