@@ -459,6 +459,22 @@
               "sha256": "11627a1b878b90293d43769beeb675928bdd667f24b32b850c20ccb20640ff72"
             }
           }
+        },
+        {
+          "version": "0.7.0",
+          "channel": "beta",
+          "date": "2026-10-22",
+          "notes": [
+            "Camera colour groups can use a real Color Space Transform instead of HTT's LUT. The Structure page's Edit panel has a Cameras list: put one Color Space Transform node on a clip in Resolve (the camera's colour space in, DaVinci Wide Gamut out), press Take from Resolve, and the Heart keeps it as that camera's still. New Resolve projects and Group clips by camera put it on the group's pre-clip node. A camera without a still keeps HTT's LUT.",
+            "Stills can be loaded from a .drx file too, and HTT's own ship inside the installer, so every install has them. Replaced stills are kept, never overwritten."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.7.0/HTT-Heart-0.7.0-windows-setup.exe",
+              "size": 35701231,
+              "sha256": "25c6b43fb4ee3f11546e94e01e077990f14167f60cda9617f4274e7ffdacbe63"
+            }
+          }
         }
       ]
     }
