@@ -493,6 +493,24 @@
               "sha256": "46938c2a7d99b429cce60bfa6b4cc28f197007754916a7990a0784f652aa0815"
             }
           }
+        },
+        {
+          "version": "0.9.0",
+          "channel": "beta",
+          "date": "2026-10-22",
+          "notes": [
+            "Camera Pre Groups: pick which cameras a new Resolve project gets a colour group for. The studio default on the Structure page has every camera; a job's Edit panel can cut it down to the two or three it uses.",
+            "The main cameras are all there: Blackmagic Gen 5, Sony S-Log3 (S-Gamut3.Cine, S-Gamut3, Venice), ARRI LogC3 and LogC4, RED Log3G10, Canon Log 2 and 3, Panasonic V-Log, Apple Log and DJI D-Log. ARRIRAW (.ari LogC3, .arx LogC4), RED .r3d and Canon .crm clips are put in their groups by Group clips by camera, as BRAW and Sony already were.",
+            "Groups are named BMDgen5-DWG, slog3 and so on, and each DCTL is named after its group, so the node reads LUT: BMDgen5-DWG.",
+            "Always a DCTL: there's no LUT fallback any more."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.9.0/HTT-Heart-0.9.0-windows-setup.exe",
+              "size": 35704009,
+              "sha256": "583f7598df93ea46d83db1f41bc77e47bb37b26984c7ec00495bf201e4903ebf"
+            }
+          }
         }
       ]
     }
