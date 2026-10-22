@@ -338,6 +338,24 @@
               "sha256": "44ea7e89c37d0742168ecee5191b72e80bb010b35f1870c5eb3eec713e61f9ce"
             }
           }
+        },
+        {
+          "version": "0.4.1",
+          "channel": "beta",
+          "date": "2026-10-22",
+          "notes": [
+            "Plates are smaller by default: compressed EXRs (DWAA, visually lossless and about a third the size) at half the clip's resolution, so a 6K clip makes a 3K plate. Turn either off in the publish window's Settings for lossless PIZ or full resolution.",
+            "The publish window has a Settings panel with Colour and Format sections. It folds to one line that says how the plates will come out.",
+            "A plate the Heart turns into ACEScg is compressed only once, when it's written, so DWAA's small loss happens once.",
+            "Fixed: two preview makers on the same version at once could trip over each other's files."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.4.1/HTT-Heart-0.4.1-windows-setup.exe",
+              "size": 35650467,
+              "sha256": "dbf6294d9c35a9ae50b6be91fedbe719e019ae152841d550275832df5e842749"
+            }
+          }
         }
       ]
     }
