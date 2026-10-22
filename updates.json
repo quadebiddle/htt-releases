@@ -511,6 +511,29 @@
               "sha256": "583f7598df93ea46d83db1f41bc77e47bb37b26984c7ec00495bf201e4903ebf"
             }
           }
+        },
+        {
+          "version": "0.9.1",
+          "channel": "beta",
+          "date": "2026-10-22",
+          "notes": [
+            "Bug fixes from a full check of the code.",
+            "Publishing: if the Heart can't record one plate, the others still publish, and the page says where that plate's frames are. Before, one failure showed every plate as failed.",
+            "Publishing: moving picked shots into a sequence never gives one the number of another picked shot already in it.",
+            "Cinema DNG and Nikon N-RAW clips are treated as RAW (Resolve decodes them), so they're no longer flagged as having an unknown colour space.",
+            "A job's frame rate and resolution are checked when they're changed, so a typo can't stop its Resolve project being made. A task's due date is checked the same way.",
+            "Going back a version in Updates no longer risks tidying away the installer it's about to run.",
+            "Previews: one queued just as the Heart finished the last one could wait forever. Previews also hold only a few frames in memory at a time.",
+            "Structure page: the Camera DCTLs list folds on its own, apart from Camera Pre Groups.",
+            "Node names: Resolve doesn't let scripts name a node (its scripting can read a node's label but not set one), so the camera groups' nodes show no name. The group's name is on the colour group itself, and its DCTL file is named after it."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.9.1/HTT-Heart-0.9.1-windows-setup.exe",
+              "size": 35710632,
+              "sha256": "d7d0fd6454cc8f98b639fd0eaba971ca740380d7257e8448431a88b274cc4de6"
+            }
+          }
         }
       ]
     }
