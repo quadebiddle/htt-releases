@@ -372,6 +372,25 @@
               "sha256": "811ffb51c60523ca928095aff8a4bd75eae1b3aa4ffa0c99f89ef67ca415b3dc"
             }
           }
+        },
+        {
+          "version": "0.5.0",
+          "channel": "beta",
+          "date": "2026-10-22",
+          "notes": [
+            "Make a job's DaVinci Resolve project from the Heart: the Resolve project button on the job page, or the tick on New job. It's named after the job, at the job's frame rate and resolution, not colour managed, with a colour group per camera (BRAW, Sony S-Log3 and more) that turns the camera's log into DaVinci Wide Gamut, the bins (rushes, sound, VFX, graphics, music, reference, timelines), HTT's render presets and a first timeline.",
+            "Import the rushes too: each shoot day Ingest copied gets a bin, with a bin per camera roll, and the sound goes in the sound bin the same way.",
+            "Resolve's cache, proxies and stills go in the job's cache folder instead of on C:, and a copy of the project is saved in the job's edit/resolve folder.",
+            "A project of the same name already in Resolve is never touched.",
+            "Resolve won't let a script set the playback frame rate, so for a job that isn't 24 fps the job page reminds you to set it in Project Settings. The monitoring format is set to match the job."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.5.0/HTT-Heart-0.5.0-windows-setup.exe",
+              "size": 35674873,
+              "sha256": "42a52e65802c36df08de69937868656595c4e2dcf5324554f13adf1d00a908b0"
+            }
+          }
         }
       ]
     }
