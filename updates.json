@@ -443,6 +443,22 @@
               "sha256": "6abc5b85d8ead6d9836c4bd8990090c4ac353474de9c750876049cefd01a9550"
             }
           }
+        },
+        {
+          "version": "0.6.2",
+          "channel": "beta",
+          "date": "2026-10-22",
+          "notes": [
+            "Fixed: making a Resolve project stopped with \"not all arguments converted during string formatting\" just after Resolve had made it, leaving an empty project. The warning for Use Color Space Aware Grading Tools caused it.",
+            "Once Resolve has made the project, nothing stops the rest: a step that goes wrong becomes a warning on the job page, and the project is still saved and copied into the job."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.6.2/HTT-Heart-0.6.2-windows-setup.exe",
+              "size": 35691115,
+              "sha256": "11627a1b878b90293d43769beeb675928bdd667f24b32b850c20ccb20640ff72"
+            }
+          }
         }
       ]
     }
