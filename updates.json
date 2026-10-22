@@ -407,6 +407,25 @@
               "sha256": "f7ed473e4ce9707a9786e76af484a6fecf67c35f12708fa6711b25f1a759522e"
             }
           }
+        },
+        {
+          "version": "0.6.0",
+          "channel": "beta",
+          "date": "2026-10-22",
+          "notes": [
+            "An Edit panel on every job page, under the job's name: the job's frame rate, resolution and colour; the Resolve project's settings (project, colour, bins and folders), filled in from the studio's defaults and changeable for that job; making the Resolve project; and the rushes. Every part folds, with Collapse all.",
+            "The studio's defaults for the Resolve project are on the Structure page, in its own Edit panel. A job keeps only what it changes, so a default changed later still reaches every other job.",
+            "New Resolve projects: grade tools work in DaVinci Wide Gamut (timeline colour space DaVinci WG/Intermediate, with Use Color Space Aware Grading Tools on), output Rec.709 Gamma 2.4, and Scale full frame with crop. Still not colour managed: the camera colour groups do the conversion, as before. Colour management can be switched on in the settings, and then HTT sets Sony clips' input colour space instead of grouping.",
+            "New job's resolution list has 6144 x 3456 (was a typo).",
+            "Two settings Resolve doesn't let scripts set, the playback frame rate and Use Color Space Aware Grading Tools, are named on the job page when a new project hasn't got them. Ticking the grade tools setting in Resolve's default project settings gives it to every new project."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.6.0/HTT-Heart-0.6.0-windows-setup.exe",
+              "size": 35696333,
+              "sha256": "951952f805f03fd330777215e251f2e1ffbf1617cd365cdc3ad99b506baa3cc6"
+            }
+          }
         }
       ]
     }
