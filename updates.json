@@ -426,6 +426,23 @@
               "sha256": "951952f805f03fd330777215e251f2e1ffbf1617cd365cdc3ad99b506baa3cc6"
             }
           }
+        },
+        {
+          "version": "0.6.1",
+          "channel": "beta",
+          "date": "2026-10-22",
+          "notes": [
+            "The job page's Edit panel starts folded, and opened it shows only the Resolve project, first and full width; the settings sub-panels below it stay folded until you need them.",
+            "Make it again: a job whose Resolve project was deleted in Resolve can have it made fresh. If the project is still in Resolve, it's left as it is.",
+            "The Structure page: every panel folds (Overview, The job folder, Tokens, Named pieces, Edit), with a Collapse all for the page. Tokens and Named pieces sit under The job folder, full width, and Edit under them."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.6.1/HTT-Heart-0.6.1-windows-setup.exe",
+              "size": 35694314,
+              "sha256": "6abc5b85d8ead6d9836c4bd8990090c4ac353474de9c750876049cefd01a9550"
+            }
+          }
         }
       ]
     }
