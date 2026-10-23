@@ -625,6 +625,31 @@
               "sha256": "fecf609db9d25cf1d59423574b58ea75947dcd9834ae4c7e541d98a6fbb29edb"
             }
           }
+        },
+        {
+          "version": "0.12.0",
+          "channel": "beta",
+          "date": "2026-10-24",
+          "notes": [
+            "Pulse is its own app now (HTT - Pulse, installed on each artist's computer). It shows the Heart's screens with My work, and opens tasks in their apps on its own computer. The Heart gets each task ready and hands Pulse the Blender connector, so updating the Heart updates every computer.",
+            "The shot page follows the design canvas: the shot list hides away, with My shots and grouping by sequence or due date; Open picks a task, app and work file and opens it through Pulse; each task has its own Open; versions sit at the bottom, grouped by kind of work, with chips to show just one kind; notes have My notes only and Show completed.",
+            "The Pulse tab in the Heart is gone: Pulse has it.",
+            "Publishing from Blender: Publish in Blender's HTT panel opens a publish window like Resolve's. Pick the render (frames, view layers, resolution), caches (collections as Alembic or USD), the camera and the .blend for linking, add notes, and Publish. It all happens in a second Blender in the background, so you keep working; each output lands in the publish folder and is recorded in the Heart, renders with their review movie. Your file then moves on to the next version.",
+            "Renders made the usual way in Blender (F12, Render Animation) go to the task's own render folder, in a folder for the version you're on, and follow it as the version changes. Only what goes through the publish window is published.",
+            "Pulse sets a task's scene up from its plate: the plate's frames, frame rate and size (a 24 fps plate makes a 24 fps scene in a 25 fps job). Without a plate it's the shot's cut and the job's settings.",
+            "A publish from Resolve that fails no longer leaves empty shots behind: a new shot is made once its plate has published, so trying again uses the same numbers.",
+            "The update bar shows a new version as soon as you open the Heart, not only after its hourly look.",
+            "Plates go out at the rate they were shot, whatever the project's rate: a 24 fps clip in a 25 fps edit makes a 24 fps plate of its own frames, and a 120 fps clip a 120 fps plate. Before, Resolve stretched it to the project's rate and the publish stopped (\"Resolve made the plate 69 frames long instead of 67\").",
+            "A clip at another rate than the edit isn't called a speed change any more; it's noted that the plate doesn't match the edit frame for frame. The version records the plate's own frame rate.",
+            "HTT Publish in Resolve updates itself the next time the Heart starts."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.12.0/HTT-Heart-0.12.0-windows-setup.exe",
+              "size": 35768929,
+              "sha256": "520401d2c5b73d95dd4a09121428dd0d24adc6da208cae02cfc464ef1f64f3d0"
+            }
+          }
         }
       ]
     }
