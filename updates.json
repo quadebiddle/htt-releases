@@ -571,6 +571,21 @@
               "sha256": "0592b6062a4f20ee50f191b36283eeffb1a201a8897442581898a046e9022087"
             }
           }
+        },
+        {
+          "version": "0.10.1",
+          "channel": "beta",
+          "date": "2026-10-23",
+          "notes": [
+            "Fixes 0.10.0 not opening on a Heart that already has jobs (\"FOREIGN KEY constraint failed\"): its database update now adds the publish root without rebuilding the jobs table. Nothing was lost: the failed update had changed nothing."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.10.1/HTT-Heart-0.10.1-windows-setup.exe",
+              "size": 35750034,
+              "sha256": "5c15f2eb98dc650f993234651db0ab8b8ef7eb2033afc589f65fd88b670d01a8"
+            }
+          }
         }
       ]
     }
