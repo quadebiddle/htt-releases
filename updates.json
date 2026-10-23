@@ -176,6 +176,22 @@
               "sha256": "d2db9afc2087f41bec9d6697101ede391a9b69bd8e5151fa9374f41374dd99d9"
             }
           }
+        },
+        {
+          "version": "0.2.0",
+          "channel": "beta",
+          "date": "2026-10-23",
+          "notes": [
+            "New jobs keep their HTT record in pipeline/htt, in step with the Heart's new job layout. Jobs made before keep theirs in _htt, and Ingest finds both.",
+            "A studio that never changed its folder template gets the Heart's new layout too. Where cards are copied doesn't change."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/ingest-v0.2.0/HTT-Ingest-0.2.0-windows-setup.exe",
+              "size": 15743199,
+              "sha256": "9f56da955664c1db3569186d3580bd3ce861785e3db411777386df1ea5a289c2"
+            }
+          }
         }
       ]
     },
