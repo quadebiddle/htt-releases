@@ -534,6 +534,27 @@
               "sha256": "d7d0fd6454cc8f98b639fd0eaba971ca740380d7257e8448431a88b274cc4de6"
             }
           }
+        },
+        {
+          "version": "0.10.0",
+          "channel": "beta",
+          "date": "2026-10-23",
+          "notes": [
+            "A new job layout, from the planning doc: a pipeline folder for HTT's own files, Blender's project file, and each shot's work split into 2d and 3d, then the task, then a folder per piece of work (3d/lighting/ROB_0010_lighting, 3d/fx/ROB_0010_fx_tank) with the app's own folders inside.",
+            "Everything published goes in one publish folder laid out like the shots, plates included. Like the rushes, it can be on its own drive per job, such as a fast drive for renders and plates: pick it when making a job, or in Job settings.",
+            "Each job gets a Blender project file (Blender 5.3): every .blend in the job uses the same ACES 2.0 colour as the Heart, and the job's published assets show in Blender's asset browser.",
+            "The start of Pulse, as a page in the Heart: pick a shot's task and open it in Blender (any version installed). The first time, its folders are made and the scene is set up from the shot: frames from 1001, fps, resolution, ACEScg, the plate behind the camera, renders as EXR. After that the latest version opens.",
+            "HTT for Blender, in the 3D View's sidebar: Save new version, Test render (kept in the work folder), and Render for comp, which renders straight into the publish folder and is recorded by the Heart, with its review movie, so comp sees it at once.",
+            "Review movies are made from multilayer EXR renders too.",
+            "Studios that never changed the folder list get the new layout. Jobs made before keep their folders and their _htt record."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.10.0/HTT-Heart-0.10.0-windows-setup.exe",
+              "size": 35748581,
+              "sha256": "0592b6062a4f20ee50f191b36283eeffb1a201a8897442581898a046e9022087"
+            }
+          }
         }
       ]
     }
