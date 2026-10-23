@@ -586,6 +586,23 @@
               "sha256": "5c15f2eb98dc650f993234651db0ab8b8ef7eb2033afc589f65fd88b670d01a8"
             }
           }
+        },
+        {
+          "version": "0.10.2",
+          "channel": "beta",
+          "date": "2026-10-23",
+          "notes": [
+            "Plates go out at the rate they were shot, whatever the project's rate: a 24 fps clip in a 25 fps edit makes a 24 fps plate of its own frames, and a 120 fps clip a 120 fps plate. Before, Resolve stretched it to the project's rate and the publish stopped (\"Resolve made the plate 69 frames long instead of 67\").",
+            "A clip at another rate than the edit isn't called a speed change any more; it's noted that the plate doesn't match the edit frame for frame. The version records the plate's own frame rate.",
+            "HTT Publish in Resolve updates itself the next time the Heart starts."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.10.2/HTT-Heart-0.10.2-windows-setup.exe",
+              "size": 35749354,
+              "sha256": "7d4fceef12aec6fe8f53b9135c114100e39f44b9b03c3387a77eb9303caec118"
+            }
+          }
         }
       ]
     }
