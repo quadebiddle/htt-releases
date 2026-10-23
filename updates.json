@@ -603,6 +603,28 @@
               "sha256": "7d4fceef12aec6fe8f53b9135c114100e39f44b9b03c3387a77eb9303caec118"
             }
           }
+        },
+        {
+          "version": "0.11.0",
+          "channel": "beta",
+          "date": "2026-10-23",
+          "notes": [
+            "Publishing from Blender: Publish in Blender's HTT panel opens a publish window like Resolve's. Pick the render (frames, view layers, resolution), caches (collections as Alembic or USD), the camera and the .blend for linking, add notes, and Publish. It all happens in a second Blender in the background, so you keep working; each output lands in the publish folder and is recorded in the Heart, renders with their review movie. Your file then moves on to the next version.",
+            "Renders made the usual way in Blender (F12, Render Animation) go to the task's own render folder, in a folder for the version you're on, and follow it as the version changes. Only what goes through the publish window is published.",
+            "Pulse sets a task's scene up from its plate: the plate's frames, frame rate and size (a 24 fps plate makes a 24 fps scene in a 25 fps job). Without a plate it's the shot's cut and the job's settings.",
+            "A publish from Resolve that fails no longer leaves empty shots behind: a new shot is made once its plate has published, so trying again uses the same numbers.",
+            "The update bar shows a new version as soon as you open the Heart, not only after its hourly look.",
+            "Plates go out at the rate they were shot, whatever the project's rate: a 24 fps clip in a 25 fps edit makes a 24 fps plate of its own frames, and a 120 fps clip a 120 fps plate. Before, Resolve stretched it to the project's rate and the publish stopped (\"Resolve made the plate 69 frames long instead of 67\").",
+            "A clip at another rate than the edit isn't called a speed change any more; it's noted that the plate doesn't match the edit frame for frame. The version records the plate's own frame rate.",
+            "HTT Publish in Resolve updates itself the next time the Heart starts."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.11.0/HTT-Heart-0.11.0-windows-setup.exe",
+              "size": 35772265,
+              "sha256": "fecf609db9d25cf1d59423574b58ea75947dcd9834ae4c7e541d98a6fbb29edb"
+            }
+          }
         }
       ]
     }
