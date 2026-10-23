@@ -652,6 +652,30 @@
           }
         }
       ]
+    },
+    "pulse": {
+      "name": "HTT - Pulse",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "channel": "beta",
+          "date": "2026-10-24",
+          "notes": [
+            "The first Pulse: the artist app on each computer. It opens on My work: your shots from the Heart, each with its frames, camera, tasks, versions and notes, the same screens as the web Heart.",
+            "Open a task in its app: pick the task, the app (Blender for now; Houdini, Nuke and the rest are listed for later), its version on this computer and the work file. The first time, the task's folders are made and its scene is set up from the plate.",
+            "HTT's Blender connector comes from the Heart and is kept in step with it, so updating the Heart updates every computer.",
+            "Blender's publish window opens on your computer through Pulse.",
+            "Pulse works with the Heart on this computer by default; another Heart's address goes in HTT\\pulse\\settings.yaml."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/pulse-v0.1.0/HTT-Pulse-0.1.0-windows-setup.exe",
+              "size": 11902617,
+              "sha256": "4d60c9da4c3452f7d7b0abbef1c50b8f44b0b77bf879c3e8f5e7df502f48fe1d"
+            }
+          }
+        }
+      ]
     }
   }
 }
