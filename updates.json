@@ -705,6 +705,21 @@
               "sha256": "0c146c75f3335236ccb882e754318e3ac22465e9e832830d81f459e29568a43a"
             }
           }
+        },
+        {
+          "version": "0.2.1",
+          "channel": "beta",
+          "date": "2026-10-24",
+          "notes": [
+            "Publish windows Pulse opens can close themselves again (Done, close), keep on top, and bring a shot or its review up in Pulse's window."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/pulse-v0.2.1/HTT-Pulse-0.2.1-windows-setup.exe",
+              "size": 11906555,
+              "sha256": "272082cb1cc0e550e542739cc1f454104c33029f74d49097aa34f8a17fb6af34"
+            }
+          }
         }
       ]
     }
