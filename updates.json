@@ -665,6 +665,25 @@
               "sha256": "38a2d28fc4fea047eda7ec6e7a0a543c67e4cd5eacff8ffb5e8b6b9b03546530"
             }
           }
+        },
+        {
+          "version": "0.13.0",
+          "channel": "beta",
+          "date": "2026-10-24",
+          "notes": [
+            "Review: play a version frame by frame, draw on it (brush, arrow, box, circle) and write notes on its frames, with Approve or Needs changes. Compare with the version before or the plate, as a wipe or side by side. Open it from a version's Review button, from Blender's publish window, or from Pulse's Review tab.",
+            "Notes written in review remember their version and frame, and what was drawn there. On the shot page they link straight back to that frame.",
+            "Blender's publish window shows each frame as it renders, and when it's done has Open shot and Review buttons.",
+            "Done, close works again in publish windows Pulse opened.",
+            "On the shot page, each kind of version folds, with Collapse all, and plates always sit at the bottom."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.13.0/HTT-Heart-0.13.0-windows-setup.exe",
+              "size": 35784214,
+              "sha256": "d7b3be294ce0c2f1357036e6055958bba2590424e5f57bb0057afc3445fca964"
+            }
+          }
         }
       ]
     },
