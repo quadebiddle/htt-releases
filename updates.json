@@ -674,6 +674,22 @@
               "sha256": "4d60c9da4c3452f7d7b0abbef1c50b8f44b0b77bf879c3e8f5e7df502f48fe1d"
             }
           }
+        },
+        {
+          "version": "0.2.0",
+          "channel": "beta",
+          "date": "2026-10-24",
+          "notes": [
+            "Pulse updates itself, like the Heart and Ingest: it checks for a new version when it opens and every hour, and a bar at the top of its window says when one is ready, with What's new and Update now. Pulse closes, installs and opens again; apps it opened, such as Blender, keep running.",
+            "From this version on, updating Pulse is one click. Pulse 0.1.0 has to be replaced by hand with this installer, once."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/pulse-v0.2.0/HTT-Pulse-0.2.0-windows-setup.exe",
+              "size": 11903169,
+              "sha256": "0c146c75f3335236ccb882e754318e3ac22465e9e832830d81f459e29568a43a"
+            }
+          }
         }
       ]
     }
