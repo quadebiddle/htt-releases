@@ -650,6 +650,21 @@
               "sha256": "520401d2c5b73d95dd4a09121428dd0d24adc6da208cae02cfc464ef1f64f3d0"
             }
           }
+        },
+        {
+          "version": "0.12.1",
+          "channel": "beta",
+          "date": "2026-10-24",
+          "notes": [
+            "In Pulse's window, the update bar shows Pulse's own updates (the Heart's updates stay in the Heart's Settings)."
+          ],
+          "files": {
+            "windows": {
+              "url": "https://github.com/quadebiddle/htt-releases/releases/download/heart-v0.12.1/HTT-Heart-0.12.1-windows-setup.exe",
+              "size": 35771754,
+              "sha256": "38a2d28fc4fea047eda7ec6e7a0a543c67e4cd5eacff8ffb5e8b6b9b03546530"
+            }
+          }
         }
       ]
     },
